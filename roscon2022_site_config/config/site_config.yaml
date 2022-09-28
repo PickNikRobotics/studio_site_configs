@@ -1,0 +1,32 @@
+#
+#  This contains information for a unique instance of a robot.
+#
+
+# Name of the package to specialize
+based_on_package: "../moveit_studio/picknik_ur5e_base_config"
+
+hardware:
+  ip: 192.10.0.11
+  camera_config_file:
+    package: "roscon2022_site_config"
+    path: "config/cameras.yaml"
+  robot_description:
+    urdf:
+      package: "roscon2022_site_config"
+      path: "description/picknik_ur5e_roscon2022.xacro"
+    srdf:
+      package: "roscon2022_site_config"
+      path: "config/moveit/picknik_ur5e_roscon2022.srdf"
+    urdf_params:
+    - kinematics_parameters_file:
+        package: "roscon2022_site_config"
+        path: "calibration/kinematic_calibration.yaml"
+
+optional_feature_params:
+  gazebo_gui: False
+  gazebo_verbose: False
+
+objectives:
+  waypoints_file:
+    package_name: "roscon2022_site_config"
+    relative_path: "waypoints/waypoints.yaml"

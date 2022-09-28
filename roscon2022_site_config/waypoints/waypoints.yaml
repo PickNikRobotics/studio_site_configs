@@ -1,0 +1,224 @@
+- name: Door
+  joint_state:
+    header:
+      frame_id: world
+      stamp:
+        sec: 0
+        nanosec: 0
+    name: [shoulder_pan_joint, shoulder_lift_joint, elbow_joint, wrist_1_joint, wrist_2_joint, wrist_3_joint]
+    position: [-1.7972968260394495, -1.7044598064818324, 2.6834090391742151, -0.44574768960986333, 0.1457810252904892, 2.6132466793060303]
+    velocity: []
+    effort: []
+  base_to_last_link_transform:
+    child_frame_id: tool0
+    header:
+      frame_id: base_link_inertia
+      stamp:
+        sec: 0
+        nanosec: 0
+    transform:
+      rotation:
+        w: 0.55624596365361934
+        x: -0.60055107354428738
+        y: -0.42138934698950736
+        z: 0.39033300427662659
+      translation:
+        x: -0.19838488776131888
+        y: 0.17142889269958303
+        z: 0.16447873800210711
+- name: Forward Down
+  joint_state:
+    header:
+      frame_id: world
+      stamp:
+        sec: 0
+        nanosec: 0
+    name: [shoulder_pan_joint, shoulder_lift_joint, elbow_joint, wrist_1_joint, wrist_2_joint, wrist_3_joint]
+    position: [0, -1.41, -0.7, -2.12, 1.67, 0]
+    velocity: []
+    effort: []
+  base_to_last_link_transform:
+    child_frame_id: tool0
+    header:
+      frame_id: base_link_inertia
+      stamp:
+        sec: 0
+        nanosec: 0
+    transform:
+      rotation:
+        w: -0.2027382689792872
+        x: 0.6941682849171675
+        y: -0.6774195112529215
+        z: 0.1346491451153444
+      translation:
+        x: 0.267631973563808
+        y: -0.1234355128808687
+        z: 0.8770211265908495
+- name: Right Corner
+  joint_state:
+    header:
+      frame_id: world
+      stamp:
+        sec: 0
+        nanosec: 0
+    name: [shoulder_pan_joint, shoulder_lift_joint, elbow_joint, wrist_1_joint, wrist_2_joint, wrist_3_joint]
+    position: [-0.61, -0.78, -0.45, -2.49, 1.64, 0]
+    velocity: []
+    effort: []
+  base_to_last_link_transform:
+    child_frame_id: tool0
+    header:
+      frame_id: base_link_inertia
+      stamp:
+        sec: 0
+        nanosec: 0
+    transform:
+      rotation:
+        w: 0.2468606530165225
+        x: -0.4207620049968092
+        y: 0.771784020188921
+        z: -0.4078830461349778
+      translation:
+        x: -0.3146420642708492
+        y: 0.06568110260843159
+        z: 0.8602000062848942
+- name: Left Corner
+  joint_state:
+    header:
+      frame_id: world
+      stamp:
+        sec: 0
+        nanosec: 0
+    name: [shoulder_pan_joint, shoulder_lift_joint, elbow_joint, wrist_1_joint, wrist_2_joint, wrist_3_joint]
+    position: [0.58, -0.78, -0.45, -2.33, 1.64, 0]
+    velocity: []
+    effort: []
+  base_to_last_link_transform:
+    child_frame_id: tool0
+    header:
+      frame_id: base_link_inertia
+      stamp:
+        sec: 0
+        nanosec: 0
+    transform:
+      rotation:
+        w: -0.4928398347390746
+        x: 0.7462508349685087
+        y: -0.3818065898000138
+        z: 0.2333287735973627
+      translation:
+        x: -0.1832735986104943
+        y: -0.2712029445482939
+        z: 0.8817662775270398
+- name: Forward
+  joint_state:
+    header:
+      frame_id: world
+      stamp:
+        sec: 0
+        nanosec: 0
+    name: [shoulder_pan_joint, shoulder_lift_joint, elbow_joint, wrist_1_joint, wrist_2_joint, wrist_3_joint]
+    position: [6.111770926509053e-05, -0.9207567137530823, -0.5101893544197083, -2.400065084496969, 1.649893403053284, 0.01113972719758749]
+    velocity: []
+    effort: []
+  base_to_last_link_transform:
+    child_frame_id: tool0
+    header:
+      frame_id: base_link_inertia
+      stamp:
+        sec: 0
+        nanosec: 0
+    transform:
+      rotation:
+        w: -0.328267991263733
+        x: 0.6435934253556093
+        y: -0.6342484873159518
+        z: 0.2752389599750265
+      translation:
+        x: -0.1728398409348087
+        y: -0.1273762365022968
+        z: 0.9028912382334445
+- name: Cabinet
+  joint_state:
+    header:
+      frame_id: world
+      stamp:
+        sec: 0
+        nanosec: 0
+    name: [shoulder_pan_joint, shoulder_lift_joint, elbow_joint, wrist_1_joint, wrist_2_joint, wrist_3_joint]
+    position: [1.747136831283569, -1.393490777616837, -1.781345367431641, -2.479086061517233, -0.1715825239764612, 2.521164655685425]
+    velocity: []
+    effort: []
+  base_to_last_link_transform:
+    child_frame_id: tool0
+    header:
+      frame_id: base_link_inertia
+      stamp:
+        sec: 0
+        nanosec: 0
+    transform:
+      rotation:
+        w: 0.6023690370995823
+        x: -0.5399419529794519
+        y: 0.3926069954275702
+        z: -0.4375773962372752
+      translation:
+        x: 0.1611226787702864
+        y: 0.4241242002356364
+        z: 0.4992270952265924
+- name: Left Grasp
+  joint_state:
+    header:
+      frame_id: world
+      stamp:
+        sec: 0
+        nanosec: 0
+    name: [shoulder_pan_joint, shoulder_lift_joint, elbow_joint, wrist_1_joint, wrist_2_joint, wrist_3_joint]
+    position: [0.58, -0.78, -0.45, -2.33, 1.64, 0]
+    velocity: []
+    effort: []
+  base_to_last_link_transform:
+    child_frame_id: tool0
+    header:
+      frame_id: base_link_inertia
+      stamp:
+        sec: 0
+        nanosec: 0
+    transform:
+      rotation:
+        w: -0.4928398347390746
+        x: 0.7462508349685087
+        y: -0.3818065898000138
+        z: 0.2333287735973627
+      translation:
+        x: -0.1832735986104943
+        y: -0.2712029445482939
+        z: 0.8817662775270398
+- name: Right Grasp
+  joint_state:
+    header:
+      frame_id: world
+      stamp:
+        sec: 0
+        nanosec: 0
+    name: [shoulder_pan_joint, shoulder_lift_joint, elbow_joint, wrist_1_joint, wrist_2_joint, wrist_3_joint]
+    position: [-0.61, -0.78, -0.45, -2.49, 1.64, 0]
+    velocity: []
+    effort: []
+  base_to_last_link_transform:
+    child_frame_id: tool0
+    header:
+      frame_id: base_link_inertia
+      stamp:
+        sec: 0
+        nanosec: 0
+    transform:
+      rotation:
+        w: 0.2468606530165225
+        x: -0.4207620049968092
+        y: 0.771784020188921
+        z: -0.4078830461349778
+      translation:
+        x: -0.3146420642708492
+        y: 0.06568110260843159
+        z: 0.8602000062848942
