@@ -3,7 +3,7 @@
 #
 
 # Name of the package to specialize
-based_on_package: "../moveit_studio/picknik_ur5e_base_config"
+based_on_package: "picknik_ur5e_base_config"
 
 hardware:
   ip: 192.10.0.11
