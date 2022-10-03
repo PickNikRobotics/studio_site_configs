@@ -89,6 +89,21 @@
     <xacro:cube_collision_and_visual length="0.25" width="4" height="4" alpha="0.3">
       <origin xyz="${0.654 + 0.25/2} 0 0" rpy="0 0 0" />
     </xacro:cube_collision_and_visual>
+
+    <!-- Left TV -->
+    <xacro:cube_collision_and_visual length="0.085" width="1.12" height="0.655" alpha="0.3"> 
+      <origin xyz="0.264 -1.467 0.614" rpy="0 0 ${0.75 * pi}" />
+    </xacro:cube_collision_and_visual>
+
+    <!-- Center TV -->
+    <xacro:cube_collision_and_visual length="0.085" width="1.12" height="0.655" alpha="0.3">
+      <origin xyz="-0.723 -1.878 0.614" rpy="0 0 0" />
+    </xacro:cube_collision_and_visual>
+
+    <!-- Right TV -->
+    <xacro:cube_collision_and_visual length="0.085" width="1.12" height="0.655" alpha="0.3">
+      <origin xyz="-1.821 -1.467 0.614" rpy="0 0 ${-0.75 * pi}" />
+    </xacro:cube_collision_and_visual>
   </link>
 
   <joint name="base_to_environment" type="fixed">
