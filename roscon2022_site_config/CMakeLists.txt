@@ -9,6 +9,7 @@ install(
     config
     description
     launch
+    meshes
     waypoints
   DESTINATION
     share/${PROJECT_NAME}
