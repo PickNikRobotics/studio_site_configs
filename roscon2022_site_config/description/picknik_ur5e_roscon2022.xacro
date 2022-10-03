@@ -104,6 +104,14 @@
     <xacro:cube_collision_and_visual length="1.12" width="0.085" height="0.655" alpha="0.3">
       <origin xyz="-1.710 -1.467 0.614" rpy="0 0 ${0.75 * pi}" />
     </xacro:cube_collision_and_visual>
+
+    <!-- Booth -->
+    <visual>
+      <origin xyz="-0.5 -0.7134 -0.91" rpy="0 0 ${0.5 * pi}" />
+      <geometry>
+        <mesh filename="file://$(find roscon2022_site_config)/meshes/roscon_booth.dae" />
+      </geometry>
+    </visual>
   </link>
 
   <joint name="base_to_environment" type="fixed">
