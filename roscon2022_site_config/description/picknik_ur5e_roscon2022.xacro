@@ -107,7 +107,7 @@
 
     <!-- Booth -->
     <visual>
-      <origin xyz="-0.5 -0.7134 -0.91" rpy="0 0 ${0.5 * pi}" />
+      <origin xyz="-0.722 -0.5 -0.91" rpy="0 0 ${0.5 * pi}" />
       <geometry>
         <mesh filename="file://$(find roscon2022_site_config)/meshes/roscon_booth.dae" />
       </geometry>
