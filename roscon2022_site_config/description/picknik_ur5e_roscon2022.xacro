@@ -87,7 +87,7 @@
 
     <!-- Table -->
     <xacro:cube_collision_and_visual length="0.8" width="2.4" height="0.25" alpha="0.3">
-      <origin xyz="${0.5 + 0.8 / 2} 0 ${0.0618 - 0.25 / 2}" rpy="0 0 0" />
+      <origin xyz="${0.5 + 0.8 / 2} 0 ${-0.0618 - 0.25 / 2}" rpy="0 0 0" />
     </xacro:cube_collision_and_visual>
 
     <!-- Left TV -->
