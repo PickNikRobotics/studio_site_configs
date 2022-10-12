@@ -92,7 +92,7 @@
 
     <!-- Left TV -->
     <xacro:cube_collision_and_visual length="0.085" width="1.12" height="0.655" alpha="0.3">
-      <origin xyz="-1.467 0.264 0.614" rpy="0 0 ${-0.75 * pi}" />
+      <origin xyz="-1.467 -0.264 0.614" rpy="0 0 ${-0.75 * pi}" />
     </xacro:cube_collision_and_visual>
 
     <!-- Center TV -->
