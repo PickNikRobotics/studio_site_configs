@@ -85,33 +85,25 @@
       <origin xyz="0 0 ${-0.25/2}" rpy="0 0 0" />
     </xacro:cube_collision_and_visual>
 
-    <!-- Task board -->
-    <xacro:cube_collision_and_visual length="0.25" width="4" height="4" alpha="0.3">
-      <origin xyz="${12*2*.0254 + 0.177/2 + 0.25/2} 0 0" rpy="0 0 0" />
+    <!-- Table -->
+    <xacro:cube_collision_and_visual length="0.8" width="2.4" height="0.25" alpha="0.3">
+      <origin xyz="${0.5 + 0.8 / 2} 0 ${-0.0618 - 0.25 / 2}" rpy="0 0 0" />
     </xacro:cube_collision_and_visual>
 
     <!-- Left TV -->
-    <xacro:cube_collision_and_visual length="1.12" width="0.085" height="0.655" alpha="0.3"> 
-      <origin xyz="0.264 -1.467 0.614" rpy="0 0 ${-0.75 * pi}" />
+    <xacro:cube_collision_and_visual length="0.085" width="1.12" height="0.655" alpha="0.3">
+      <origin xyz="-1.467 -0.264 0.614" rpy="0 0 ${-0.75 * pi}" />
     </xacro:cube_collision_and_visual>
 
     <!-- Center TV -->
-    <xacro:cube_collision_and_visual length="1.12" width="0.085" height="0.655" alpha="0.3">
-      <origin xyz="-0.723 -1.878 0.614" rpy="0 0 0" />
+    <xacro:cube_collision_and_visual length="0.085" width="1.12" height="0.655" alpha="0.3">
+      <origin xyz="-1.878 0.723 0.614" rpy="0 0 0" />
     </xacro:cube_collision_and_visual>
 
     <!-- Right TV -->
-    <xacro:cube_collision_and_visual length="1.12" width="0.085" height="0.655" alpha="0.3">
-      <origin xyz="-1.710 -1.467 0.614" rpy="0 0 ${0.75 * pi}" />
+    <xacro:cube_collision_and_visual length="0.085" width="1.12" height="0.655" alpha="0.3">
+      <origin xyz="-1.467 1.710 0.614" rpy="0 0 ${0.75 * pi}" />
     </xacro:cube_collision_and_visual>
-
-    <!-- Booth -->
-    <visual>
-      <origin xyz="-0.722 -0.5 -0.91" rpy="0 0 ${0.5 * pi}" />
-      <geometry>
-        <mesh filename="file://$(find roscon2022_site_config)/meshes/roscon_booth.dae" />
-      </geometry>
-    </visual>
   </link>
 
   <joint name="base_to_environment" type="fixed">
